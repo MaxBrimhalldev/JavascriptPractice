@@ -38,17 +38,17 @@ VM1172:4
 
 //Write a program that asks the user for a word until the user types "stop". The program then shows each of these words, except "stop"
 
-function yuppers(array){
-	let arr = []
-	for(let i = 0; i < word.length; i++){
-		if(word.toLowerCase() != 'stop'){
-			arr.push(arr)
-		}else{
-			console.log(arr)
-		}
+function yuppers(arr){
+	let array = []
+	if(arr !== 'stop'){
+		array.push(arr)
+	}else{
+		console.log('Sorry, You typed stop')
 	}
+	console.log(array)
 }
 
+yuppers('Hello','stop','again')
 function yuppers(word){
 	let arr = []
 	for(let i = 0; i < arr.length; i++){
