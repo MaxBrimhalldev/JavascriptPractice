@@ -96,6 +96,10 @@ function createObject(){
 	const George = new Bank('George', 1000)
 	let array = [Sean, Brad, George]
 	
+	Sean += 1000
+	Brad += 1000
+	George += 1000
+	
 	Sean.describe()
 	Brad.describe()
 	George.describe()
